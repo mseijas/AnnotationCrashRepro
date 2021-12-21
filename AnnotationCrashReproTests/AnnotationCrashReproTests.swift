@@ -16,6 +16,7 @@ class AnnotationCrashReproTests: XCTestCase {
         let factory = factoryBuilder.makeFactory()
         
         print(factory.shouldMakePrinters)
+        
         XCTAssertTrue(true)
     }
 
