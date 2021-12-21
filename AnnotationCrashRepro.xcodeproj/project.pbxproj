@@ -8,25 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		60C2A0AB27722E3400A4510D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0AA27722E3400A4510D /* AppDelegate.m */; };
-		60C2A0AE27722E3400A4510D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0AD27722E3400A4510D /* SceneDelegate.m */; };
 		60C2A0B127722E3400A4510D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0B027722E3400A4510D /* ViewController.m */; };
 		60C2A0B427722E3400A4510D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C2A0B227722E3400A4510D /* Main.storyboard */; };
 		60C2A0B627722E3500A4510D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C2A0B527722E3500A4510D /* Assets.xcassets */; };
 		60C2A0B927722E3500A4510D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C2A0B727722E3500A4510D /* LaunchScreen.storyboard */; };
 		60C2A0BC27722E3500A4510D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0BB27722E3500A4510D /* main.m */; };
 		60C2A0C627722E3500A4510D /* AnnotationCrashReproTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0C527722E3500A4510D /* AnnotationCrashReproTests.m */; };
-		60C2A0D127722E3500A4510D /* AnnotationCrashReproUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0D027722E3500A4510D /* AnnotationCrashReproUITests.m */; };
+		60C2A0E227722EF200A4510D /* DependencyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0E127722EF200A4510D /* DependencyContainer.m */; };
+		60C2A0E527722F3100A4510D /* FeatureFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0E427722F3100A4510D /* FeatureFlags.m */; };
+		60C2A0EB27722F5E00A4510D /* UserOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0EA27722F5E00A4510D /* UserOptions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		60C2A0C227722E3500A4510D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60C2A09E27722E3400A4510D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60C2A0A527722E3400A4510D;
-			remoteInfo = AnnotationCrashRepro;
-		};
-		60C2A0CD27722E3500A4510D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60C2A09E27722E3400A4510D /* Project object */;
 			proxyType = 1;
@@ -39,8 +33,6 @@
 		60C2A0A627722E3400A4510D /* AnnotationCrashRepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnotationCrashRepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C2A0A927722E3400A4510D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60C2A0AA27722E3400A4510D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60C2A0AC27722E3400A4510D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		60C2A0AD27722E3400A4510D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		60C2A0AF27722E3400A4510D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		60C2A0B027722E3400A4510D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60C2A0B327722E3400A4510D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +43,12 @@
 		60C2A0C127722E3500A4510D /* AnnotationCrashReproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnotationCrashReproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C2A0C527722E3500A4510D /* AnnotationCrashReproTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationCrashReproTests.m; sourceTree = "<group>"; };
 		60C2A0C727722E3500A4510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60C2A0CC27722E3500A4510D /* AnnotationCrashReproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnotationCrashReproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C2A0D027722E3500A4510D /* AnnotationCrashReproUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationCrashReproUITests.m; sourceTree = "<group>"; };
-		60C2A0D227722E3500A4510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C2A0E027722EF200A4510D /* DependencyContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependencyContainer.h; sourceTree = "<group>"; };
+		60C2A0E127722EF200A4510D /* DependencyContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependencyContainer.m; sourceTree = "<group>"; };
+		60C2A0E327722F3100A4510D /* FeatureFlags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureFlags.h; sourceTree = "<group>"; };
+		60C2A0E427722F3100A4510D /* FeatureFlags.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureFlags.m; sourceTree = "<group>"; };
+		60C2A0E927722F5E00A4510D /* UserOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserOptions.h; sourceTree = "<group>"; };
+		60C2A0EA27722F5E00A4510D /* UserOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserOptions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C2A0C927722E3500A4510D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +74,6 @@
 			children = (
 				60C2A0A827722E3400A4510D /* AnnotationCrashRepro */,
 				60C2A0C427722E3500A4510D /* AnnotationCrashReproTests */,
-				60C2A0CF27722E3500A4510D /* AnnotationCrashReproUITests */,
 				60C2A0A727722E3400A4510D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +83,6 @@
 			children = (
 				60C2A0A627722E3400A4510D /* AnnotationCrashRepro.app */,
 				60C2A0C127722E3500A4510D /* AnnotationCrashReproTests.xctest */,
-				60C2A0CC27722E3500A4510D /* AnnotationCrashReproUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,17 +90,14 @@
 		60C2A0A827722E3400A4510D /* AnnotationCrashRepro */ = {
 			isa = PBXGroup;
 			children = (
-				60C2A0A927722E3400A4510D /* AppDelegate.h */,
-				60C2A0AA27722E3400A4510D /* AppDelegate.m */,
-				60C2A0AC27722E3400A4510D /* SceneDelegate.h */,
-				60C2A0AD27722E3400A4510D /* SceneDelegate.m */,
-				60C2A0AF27722E3400A4510D /* ViewController.h */,
-				60C2A0B027722E3400A4510D /* ViewController.m */,
-				60C2A0B227722E3400A4510D /* Main.storyboard */,
-				60C2A0B527722E3500A4510D /* Assets.xcassets */,
-				60C2A0B727722E3500A4510D /* LaunchScreen.storyboard */,
-				60C2A0BA27722E3500A4510D /* Info.plist */,
-				60C2A0BB27722E3500A4510D /* main.m */,
+				60C2A0DF27722EDD00A4510D /* App Delegate */,
+				60C2A0EC2772318900A4510D /* Supporting Files */,
+				60C2A0E027722EF200A4510D /* DependencyContainer.h */,
+				60C2A0E127722EF200A4510D /* DependencyContainer.m */,
+				60C2A0E327722F3100A4510D /* FeatureFlags.h */,
+				60C2A0E427722F3100A4510D /* FeatureFlags.m */,
+				60C2A0E927722F5E00A4510D /* UserOptions.h */,
+				60C2A0EA27722F5E00A4510D /* UserOptions.m */,
 			);
 			path = AnnotationCrashRepro;
 			sourceTree = "<group>";
@@ -128,13 +111,27 @@
 			path = AnnotationCrashReproTests;
 			sourceTree = "<group>";
 		};
-		60C2A0CF27722E3500A4510D /* AnnotationCrashReproUITests */ = {
+		60C2A0DF27722EDD00A4510D /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				60C2A0D027722E3500A4510D /* AnnotationCrashReproUITests.m */,
-				60C2A0D227722E3500A4510D /* Info.plist */,
+				60C2A0A927722E3400A4510D /* AppDelegate.h */,
+				60C2A0AA27722E3400A4510D /* AppDelegate.m */,
+				60C2A0AF27722E3400A4510D /* ViewController.h */,
+				60C2A0B027722E3400A4510D /* ViewController.m */,
 			);
-			path = AnnotationCrashReproUITests;
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		60C2A0EC2772318900A4510D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C2A0B227722E3400A4510D /* Main.storyboard */,
+				60C2A0B527722E3500A4510D /* Assets.xcassets */,
+				60C2A0B727722E3500A4510D /* LaunchScreen.storyboard */,
+				60C2A0BA27722E3500A4510D /* Info.plist */,
+				60C2A0BB27722E3500A4510D /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,24 +172,6 @@
 			productReference = 60C2A0C127722E3500A4510D /* AnnotationCrashReproTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60C2A0CB27722E3500A4510D /* AnnotationCrashReproUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60C2A0DB27722E3500A4510D /* Build configuration list for PBXNativeTarget "AnnotationCrashReproUITests" */;
-			buildPhases = (
-				60C2A0C827722E3500A4510D /* Sources */,
-				60C2A0C927722E3500A4510D /* Frameworks */,
-				60C2A0CA27722E3500A4510D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60C2A0CE27722E3500A4510D /* PBXTargetDependency */,
-			);
-			name = AnnotationCrashReproUITests;
-			productName = AnnotationCrashReproUITests;
-			productReference = 60C2A0CC27722E3500A4510D /* AnnotationCrashReproUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,10 +184,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					60C2A0C027722E3500A4510D = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 60C2A0A527722E3400A4510D;
-					};
-					60C2A0CB27722E3500A4510D = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 60C2A0A527722E3400A4510D;
 					};
@@ -229,7 +204,6 @@
 			targets = (
 				60C2A0A527722E3400A4510D /* AnnotationCrashRepro */,
 				60C2A0C027722E3500A4510D /* AnnotationCrashReproTests */,
-				60C2A0CB27722E3500A4510D /* AnnotationCrashReproUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,13 +226,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C2A0CA27722E3500A4510D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,8 +235,10 @@
 			files = (
 				60C2A0B127722E3400A4510D /* ViewController.m in Sources */,
 				60C2A0AB27722E3400A4510D /* AppDelegate.m in Sources */,
+				60C2A0E527722F3100A4510D /* FeatureFlags.m in Sources */,
 				60C2A0BC27722E3500A4510D /* main.m in Sources */,
-				60C2A0AE27722E3400A4510D /* SceneDelegate.m in Sources */,
+				60C2A0EB27722F5E00A4510D /* UserOptions.m in Sources */,
+				60C2A0E227722EF200A4510D /* DependencyContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C2A0C827722E3500A4510D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60C2A0D127722E3500A4510D /* AnnotationCrashReproUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,11 +257,6 @@
 			isa = PBXTargetDependency;
 			target = 60C2A0A527722E3400A4510D /* AnnotationCrashRepro */;
 			targetProxy = 60C2A0C227722E3500A4510D /* PBXContainerItemProxy */;
-		};
-		60C2A0CE27722E3500A4510D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60C2A0A527722E3400A4510D /* AnnotationCrashRepro */;
-			targetProxy = 60C2A0CD27722E3500A4510D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -375,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -479,7 +435,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashReproTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +454,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashReproTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,42 +463,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnnotationCrashRepro.app/AnnotationCrashRepro";
-			};
-			name = Release;
-		};
-		60C2A0DC27722E3500A4510D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7M858A4MS;
-				INFOPLIST_FILE = AnnotationCrashReproUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashReproUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnnotationCrashRepro;
-			};
-			name = Debug;
-		};
-		60C2A0DD27722E3500A4510D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7M858A4MS;
-				INFOPLIST_FILE = AnnotationCrashReproUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashReproUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnnotationCrashRepro;
 			};
 			name = Release;
 		};
@@ -574,15 +492,6 @@
 			buildConfigurations = (
 				60C2A0D927722E3500A4510D /* Debug */,
 				60C2A0DA27722E3500A4510D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		60C2A0DB27722E3500A4510D /* Build configuration list for PBXNativeTarget "AnnotationCrashReproUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60C2A0DC27722E3500A4510D /* Debug */,
-				60C2A0DD27722E3500A4510D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
