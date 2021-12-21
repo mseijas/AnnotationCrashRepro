@@ -9,4 +9,9 @@
 
 @implementation FeatureFlags
 
+- (BOOL)hasPrinterRestrictions
+{
+    return !self.userOptions.canUsePrinter;
+}
+
 @end

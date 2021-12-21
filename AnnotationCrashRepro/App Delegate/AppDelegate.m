@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DependencyContainer.h"
+#import "AnnotationCrashRepro-Swift.h"
 
 @interface AppDelegate ()
 
@@ -15,6 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    Builder* builder = [[Builder alloc] init];
+    [builder build];
+    
+    NSLog(@"DependencyContainer: %@", builder.dependencyContainer);
+    NSLog(@"FeatureFlags: %@", builder.dependencyContainer.featureFlags);
+    
     // Override point for customization after application launch.
     return YES;
 }

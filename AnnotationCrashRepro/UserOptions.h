@@ -7,10 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UserOptions : NSObject
 
-@end
+@property (nonatomic, readwrite) BOOL canUsePrinter;
 
-NS_ASSUME_NONNULL_END
+@end

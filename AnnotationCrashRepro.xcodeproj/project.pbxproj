@@ -13,10 +13,13 @@
 		60C2A0B627722E3500A4510D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C2A0B527722E3500A4510D /* Assets.xcassets */; };
 		60C2A0B927722E3500A4510D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C2A0B727722E3500A4510D /* LaunchScreen.storyboard */; };
 		60C2A0BC27722E3500A4510D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0BB27722E3500A4510D /* main.m */; };
-		60C2A0C627722E3500A4510D /* AnnotationCrashReproTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0C527722E3500A4510D /* AnnotationCrashReproTests.m */; };
 		60C2A0E227722EF200A4510D /* DependencyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0E127722EF200A4510D /* DependencyContainer.m */; };
 		60C2A0E527722F3100A4510D /* FeatureFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0E427722F3100A4510D /* FeatureFlags.m */; };
 		60C2A0EB27722F5E00A4510D /* UserOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0EA27722F5E00A4510D /* UserOptions.m */; };
+		60C2A0EF277233CF00A4510D /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0EE277233CF00A4510D /* Builder.swift */; };
+		60C2A0F22772353400A4510D /* AnnotationCrashReproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0F12772353400A4510D /* AnnotationCrashReproTests.swift */; };
+		60C2A0FA277236D900A4510D /* FactoryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0F9277236D900A4510D /* FactoryBuilder.m */; };
+		60C2A0FD2772375400A4510D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A0FC2772375400A4510D /* Factory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		60C2A0BA27722E3500A4510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C2A0BB27722E3500A4510D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60C2A0C127722E3500A4510D /* AnnotationCrashReproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnotationCrashReproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C2A0C527722E3500A4510D /* AnnotationCrashReproTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationCrashReproTests.m; sourceTree = "<group>"; };
 		60C2A0C727722E3500A4510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C2A0E027722EF200A4510D /* DependencyContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependencyContainer.h; sourceTree = "<group>"; };
 		60C2A0E127722EF200A4510D /* DependencyContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependencyContainer.m; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 		60C2A0E427722F3100A4510D /* FeatureFlags.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureFlags.m; sourceTree = "<group>"; };
 		60C2A0E927722F5E00A4510D /* UserOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserOptions.h; sourceTree = "<group>"; };
 		60C2A0EA27722F5E00A4510D /* UserOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserOptions.m; sourceTree = "<group>"; };
+		60C2A0ED277233CF00A4510D /* AnnotationCrashRepro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnnotationCrashRepro-Bridging-Header.h"; sourceTree = "<group>"; };
+		60C2A0EE277233CF00A4510D /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		60C2A0F02772353300A4510D /* AnnotationCrashReproTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnnotationCrashReproTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		60C2A0F12772353400A4510D /* AnnotationCrashReproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCrashReproTests.swift; sourceTree = "<group>"; };
+		60C2A0F8277236D900A4510D /* FactoryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryBuilder.h; sourceTree = "<group>"; };
+		60C2A0F9277236D900A4510D /* FactoryBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryBuilder.m; sourceTree = "<group>"; };
+		60C2A0FB2772375400A4510D /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		60C2A0FC2772375400A4510D /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,15 @@
 				60C2A0EC2772318900A4510D /* Supporting Files */,
 				60C2A0E027722EF200A4510D /* DependencyContainer.h */,
 				60C2A0E127722EF200A4510D /* DependencyContainer.m */,
+				60C2A0F8277236D900A4510D /* FactoryBuilder.h */,
+				60C2A0F9277236D900A4510D /* FactoryBuilder.m */,
+				60C2A0FB2772375400A4510D /* Factory.h */,
+				60C2A0FC2772375400A4510D /* Factory.m */,
 				60C2A0E327722F3100A4510D /* FeatureFlags.h */,
 				60C2A0E427722F3100A4510D /* FeatureFlags.m */,
 				60C2A0E927722F5E00A4510D /* UserOptions.h */,
 				60C2A0EA27722F5E00A4510D /* UserOptions.m */,
+				60C2A0EE277233CF00A4510D /* Builder.swift */,
 			);
 			path = AnnotationCrashRepro;
 			sourceTree = "<group>";
@@ -105,8 +120,9 @@
 		60C2A0C427722E3500A4510D /* AnnotationCrashReproTests */ = {
 			isa = PBXGroup;
 			children = (
-				60C2A0C527722E3500A4510D /* AnnotationCrashReproTests.m */,
 				60C2A0C727722E3500A4510D /* Info.plist */,
+				60C2A0F12772353400A4510D /* AnnotationCrashReproTests.swift */,
+				60C2A0F02772353300A4510D /* AnnotationCrashReproTests-Bridging-Header.h */,
 			);
 			path = AnnotationCrashReproTests;
 			sourceTree = "<group>";
@@ -125,6 +141,7 @@
 		60C2A0EC2772318900A4510D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60C2A0ED277233CF00A4510D /* AnnotationCrashRepro-Bridging-Header.h */,
 				60C2A0B227722E3400A4510D /* Main.storyboard */,
 				60C2A0B527722E3500A4510D /* Assets.xcassets */,
 				60C2A0B727722E3500A4510D /* LaunchScreen.storyboard */,
@@ -182,9 +199,11 @@
 				TargetAttributes = {
 					60C2A0A527722E3400A4510D = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					60C2A0C027722E3500A4510D = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = 60C2A0A527722E3400A4510D;
 					};
 				};
@@ -234,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C2A0B127722E3400A4510D /* ViewController.m in Sources */,
+				60C2A0FD2772375400A4510D /* Factory.m in Sources */,
 				60C2A0AB27722E3400A4510D /* AppDelegate.m in Sources */,
+				60C2A0FA277236D900A4510D /* FactoryBuilder.m in Sources */,
+				60C2A0EF277233CF00A4510D /* Builder.swift in Sources */,
 				60C2A0E527722F3100A4510D /* FeatureFlags.m in Sources */,
 				60C2A0BC27722E3500A4510D /* main.m in Sources */,
 				60C2A0EB27722F5E00A4510D /* UserOptions.m in Sources */,
@@ -246,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C2A0C627722E3500A4510D /* AnnotationCrashReproTests.m in Sources */,
+				60C2A0F22772353400A4510D /* AnnotationCrashReproTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashRepro/Info.plist;
@@ -406,6 +429,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashRepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnnotationCrashRepro/AnnotationCrashRepro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -415,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashRepro/Info.plist;
@@ -424,6 +451,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashRepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnnotationCrashRepro/AnnotationCrashRepro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -431,7 +460,9 @@
 		60C2A0D927722E3500A4510D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashReproTests/Info.plist;
@@ -442,6 +473,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashReproTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnnotationCrashReproTests/AnnotationCrashReproTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnnotationCrashRepro.app/AnnotationCrashRepro";
 			};
@@ -450,7 +484,9 @@
 		60C2A0DA27722E3500A4510D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7M858A4MS;
 				INFOPLIST_FILE = AnnotationCrashReproTests/Info.plist;
@@ -461,6 +497,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matias.AnnotationCrashReproTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnnotationCrashReproTests/AnnotationCrashReproTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnnotationCrashRepro.app/AnnotationCrashRepro";
 			};

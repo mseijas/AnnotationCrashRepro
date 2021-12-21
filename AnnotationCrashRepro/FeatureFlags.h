@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "UserOptions.h"
 
 @interface FeatureFlags : NSObject
 
-@end
+@property (nonatomic, strong, readonly, nonnull) UserOptions *userOptions;
 
-NS_ASSUME_NONNULL_END
+- (BOOL)hasPrinterRestrictions;
+
+@end

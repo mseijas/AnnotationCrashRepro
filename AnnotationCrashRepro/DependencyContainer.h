@@ -7,10 +7,16 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class FeatureFlags;
+@class FactoryBuilder;
+
 
 @interface DependencyContainer : NSObject
 
-@end
+@property (nonatomic, strong, readonly, nullable) FeatureFlags* featureFlags;
 
-NS_ASSUME_NONNULL_END
+- (nonnull instancetype)initWithFeatureFlags:(nullable FeatureFlags*)FeatureFlags;
+
+- (nonnull FactoryBuilder*)makeFactoryBuilder;
+
+@end
